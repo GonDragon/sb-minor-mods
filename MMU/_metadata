@@ -1,0 +1,9 @@
+{
+  "author" : "GonDragon",
+  "description" : "Are you tired of being limited to be in your Mech when you are on a 0 G environment, like, an asteroid field? Do you want to roam around freely, to mine, build, fight, etc. ? Well, this tech is the solution!\n\nOnce you unlock all the vanilla techs, and unlock the mecha, a new quest will be given by the tech scientist in the Outpost. With 10 Iron Bars, you can complete that mission and unlock a new tech in the \"Body\" and in the \"head\" section, for just 3 Tech Cards each one.\n\nAlso, you unlock two \"Optimized for combat\" versions, one for Head and one for Body. They cost 8 Tech Cards each one.\n\nThis new Tech is the \"Maneuvering Unit\". It can be used only on 0 G environments, and let you roam around freely, like if you were swiming in space, but a little bit faster. Also, if you want to stay steady in place, you can press Jump (spacebar), and the Maneuvering Unit will kill your velocity.\n\nTo unlock the techs if you already made the quest, press enter and write:\n[code]/admin\n/maketechavailable mmu\n/maketechavailable mmuHead\n/maketechavailable mmuII\n/maketechavailable mmuIIhead\n/admin[/code]",
+  "friendlyName" : "Zero G Maneuvering Unit",
+  "link" : "steam://url/CommunityFilePage/1101407919",
+  "name" : "MMU",
+  "steamContentId" : "1101407919",
+  "version" : "1.1"
+}

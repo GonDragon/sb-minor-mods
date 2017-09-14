@@ -1,0 +1,40 @@
+{
+  "id" : "techscientistMMU",
+  "prerequisites" : [ "techscientist6", "mechunlock" ],
+  "title" : "^orange;Moving the pieces around",
+  "text" : "Do you own a mech, right? Because the ^orange;tech^white; I'm working on now is really usefull when you get out of it. It let the user to move freely in ^blue;Zero Gravity^white; environments, and even stay steady in place. Very convenient if you want to inspect closer any structure found in space. I need some final components to finish it. ^green;Could you bring me ^orange;10 Iron Bars^white;?",
+  "completionText" : "Most excellent! I already tested previous version of this ^orange;Manneuvering Unit Tech^white;, so you will be fine with it. Bring ^green;8 Tech Cards^white; to the Tech Station to unlock it",
+  "moneyRange" : [300, 300],
+  "rewards" : [],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/main.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "questStarted" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      },
+      "questComplete" : {
+        "portrait" : [ {"image" : "/objects/outpost/techlab/techlabscientistportrait.png"} ],
+        "title" : "Elliott"
+      }
+    },
+    "requireTurnIn" : true,
+
+    "turnInDescription" : "Speak to ^orange;Elliott^reset; at the ^orange;Outpost^reset;",
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "ironbar",
+        "count" : 10,
+        "consume" : true
+      }
+    ],
+  
+  // Completion actions
+    "showTech" : [
+      "mmu", "mmuHead", "mmuII", "mmuIIhead"
+    ]  
+  }
+}

@@ -1,0 +1,264 @@
+[
+  [
+    {  "op": "test", "path": "/modTab", "inverse": true },
+    { "op": "add", "path": "/modTab", "value": [] }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/modTab/-",
+      "value": {
+      "file": "/interface/protectorFrogs/tabicon_protector.png",
+      "label": "Protect.",
+      "filter": [ "protector" ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector",
+      "value": []
+    }
+  ],
+  [
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateamp"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratebench"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratebookcabinet"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratecactiflowerpot"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateclock"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratedoor"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratedormbed"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratedormmirror"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratedormtoilet"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratedormtoiletroll"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateextinguisher"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratefigures"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorategamesconsole"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorategardenbench"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateguidelines"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateguitar"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratehalllight"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratehologlobe"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratehulagirl"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelavalamp"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbychair"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbyplant"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbyracebanners"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbytable"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbytv"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbyvending"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateposter1"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateposter2"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorateradio"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoraterobe"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoraterope"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage1"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage2"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage3"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage4"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage5"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorage6"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratestorageempty"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratetoolbox"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewallbanner"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewastebin"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewaterdispenser"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewatertank"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewindbanner"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewindbanner2"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratewindbanner3"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectorategardenwindchimes"
+    },
+    {
+      "op": "add",
+      "path": "/storeInventory/protector/-",
+      "value": "protectoratelobbylockers2"
+    }
+  ]
+]

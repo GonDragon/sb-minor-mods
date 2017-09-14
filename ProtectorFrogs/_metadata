@@ -1,0 +1,10 @@
+{
+  "author" : "GonDragon",
+  "description" : "Addon for [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1111078]Many Frogs[/url]. Adds a new tab with the Protectorated Items to the Frog Furnishing.\n\nI recommend to use altogether with [url=http://steamcommunity.com/sharedfiles/filedetails/?id=782825930]Protector Icons[/url].",
+  "friendlyName" : "Protector Frogs - Many Frogs Adon",
+  "includes" : ["manyFrogs"],
+  "link" : "steam://url/CommunityFilePage/1112948315",
+  "name" : "protectorFrogs",
+  "steamContentId" : "1112948315",
+  "version" : "1.0.1"
+}

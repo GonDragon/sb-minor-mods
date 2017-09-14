@@ -1,0 +1,22 @@
+{
+  "particleEmitters" : {
+    "mmuParticles" : {
+      "emissionRate" : 50.0,
+      "particles" : [
+        
+        {
+          "particle" : "jetboots3",
+          "offset" : [-0.15, 0]
+        },
+        {
+          "particle" : "jetboots3",
+          "offset" : [0.15, 0]
+        }
+      ]
+    }
+  },
+
+  "sounds" : {
+    "move" : [ "/sfx/gun/flamethrower_loop.ogg" ]
+  }
+}

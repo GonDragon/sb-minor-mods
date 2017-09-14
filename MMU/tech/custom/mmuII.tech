@@ -1,0 +1,19 @@
+{
+  "name" : "mmuII",
+  "type" : "body",
+
+  "scripts" : ["mmu.lua"],
+  "animator" : "mmu.animation",
+
+  "description" : "Helps to move on ^red;Zero Gravity^white;. Optimized for combat.",
+  "shortDescription" : "Tactic Maneuvering",
+  "rarity" : "Legendary",
+  "icon" : "/tech/mmu.png",
+
+  "chipCost" : 8,
+
+  "maxSpeed" : 40,
+  "aceleration" : 20,
+  "stopMult" : 5,
+  "energyPerSecond" : 2
+}

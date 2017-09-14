@@ -1,0 +1,19 @@
+{
+  "name" : "mmu",
+  "type" : "body",
+
+  "scripts" : ["mmu.lua"],
+  "animator" : "mmu.animation",
+
+  "description" : "Helps to move on ^red;Zero Gravity^white;. Press ^Green;[Jump]^white; to stabilize",
+  "shortDescription" : "Maneuvering Unit",
+  "rarity" : "Legendary",
+  "icon" : "/tech/mmu.png",
+
+  "chipCost" : 3,
+
+  "maxSpeed" : 15,
+  "aceleration" : 9,
+  "stopMult" : 5,
+  "energyPerSecond" : 8
+}

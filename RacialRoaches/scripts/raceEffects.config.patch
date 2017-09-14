@@ -1,0 +1,33 @@
+[
+  {
+    "op" : "add",
+    "path" : "/blattra",
+    "value" : {
+      "stats" : [
+              { "stat" : "isOmnivore", "amount" : 1 },
+              { "stat" : "maxEnergy", "baseMultiplier" : 1.1 },
+              { "stat" : "maxHealth", "baseMultiplier" : 0.9 },
+              { "stat" : "foodDelta", "baseMultiplier" : 0.8 },
+
+              { "stat" : "iceResistance", "amount" : -0.5 },
+              { "stat" : "poisonResistance", "amount" : 0.5 },
+              { "stat" : "radioactiveResistance", "amount" : 0.3 },
+
+              { "stat" : "fujungleslowImmunity", "amount" : 1 },
+              { "stat" : "jungleslowImmunity", "amount" : 1 }
+          ],
+          "controlModifiers" : {
+              "speedModifier" : 1.1
+          },
+
+          "envEffects" : [
+              {
+                  "biomes" : [ "scorchedcity", "toxic", "irradiated" ],
+                  "stats" : [
+                      { "stat" : "maxHealth", "baseMultiplier" : 1.25 }
+                  ]
+              }
+          ]
+    }
+  }
+]

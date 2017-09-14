@@ -1,0 +1,15 @@
+[
+
+    { "op": "replace",
+    "path" : "/charCreationTooltip/description" ,
+    "value" : "Roach-like aliens with a penchant for scavenging and invention. Omnivores.
+
+    ^red;HP -10%, Weak: 50% Ice^reset;
+    ^green;Low food consumption, +10% Energy and +10% speed^reset;
+    ^green;Resist: +50% Poison, +30% Radioactive^reset;
+    ^green;Gain a hefty health bonus in toxic, irradiated and decayed biomes.^reset;
+    ^green;Immune: Poison, Radiation^reset;
+    "
+    }
+
+]

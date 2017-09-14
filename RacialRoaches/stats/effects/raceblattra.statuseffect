@@ -1,0 +1,33 @@
+{
+  "name" : "raceblattra",
+  "effectConfig" : {
+    //Core attributes
+    "healthBonus" : -0.1,
+    "energyBonus" : 0.1,
+    "attackBonus" : 1,
+    "defenseBonus" : 1,
+
+    //Resistances
+    "physicalResistance" : 0,
+    "electricResistance" : 0,
+    "fireResistance" : 0,
+    "iceResistance" : -0.5,
+    "poisonResistance" : 0.5,
+    "shadowResistance" : 0,
+    "cosmicResistance" : 0,
+    "radioactiveResistance" : 0.3,
+
+    //Mobility
+    "speedBonus" : 1.1,
+    "jumpBonus" : 1,
+    "fallBonus" : 1,
+    "otherBonus" : 1,
+    "knockbackBonus" : 1
+  },
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "raceblattra.lua"
+  ]
+
+}

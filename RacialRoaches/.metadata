@@ -1,0 +1,11 @@
+{
+  "author" : "GonDragon",
+  "description" : "I found a very good race mod but, sadly, isn't supported by frackin races. The race already have some inherent \"special ability\" coded into it, but it lack of some things to be a full Frackin' Races experience.\n\nSo, I decided to make that patch by myself. First, I maded it for personal use, but as I saw some people asking for it, I think to better release it.\n\nTo use this patch you need both, the Blattra race and Frackin' Races.\n\nThese are the changes in this patch:\n[list]\n[*] Diet: Omnivores.\n[*] Negative traits: -10% HP, 50% Ice Weakness\n[*] Positive traits: Low food consumption, +10% Energy , +10% speed\n[*] Resistances: +50% Poison, +30% Radioactive\n[*] Bonus: Gain a hefty health bonus in toxic, irradiated and decayed biomes.\n[*] Immunities: Poison, Radiation (both already in the race mod)\n[/list]\n\nI want to say thanks to the mod creators of both mods, for creating such amazing things and features to customize Starbound. That game wouldn't be the same without moders like you two. Thanks!",
+  "friendlyName" : "Racial Roaches",
+  "includes" : ["FrackinUniverse"],
+  "link" : "steam://url/CommunityFilePage/1132476329",
+  "name" : "FrackinRoaches",
+  "requires" : ["FrackinRaces", "Blattra"],
+  "steamContentId" : "1132476329",
+  "version" : "1.1.1"
+}
