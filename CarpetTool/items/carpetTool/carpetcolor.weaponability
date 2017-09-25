@@ -1,0 +1,171 @@
+{
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "2" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "3" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "4" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "5" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "6" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "7" : {
+              "frames" : 1,
+              "properties" : { }
+            },
+            "8" : {
+              "frames" : 1,
+              "properties" : { }
+            }
+          }
+        }
+      },
+
+      "parts" : {
+        "middle" : {
+          "properties" : {
+            "image" : null
+          },
+
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:red.<frame>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:orange.<frame>"
+                }
+              },
+              "3" : {
+                "properties" : {
+                  "image" : "<partImage>:yellow.<frame>"
+                }
+              },
+              "4" : {
+                "properties" : {
+                  "image" : "<partImage>:green.<frame>"
+                }
+              },
+              "5" : {
+                "properties" : {
+                  "image" : "<partImage>:blue.<frame>"
+                }
+              },
+              "6" : {
+                "properties" : {
+                  "image" : "<partImage>:purple.<frame>"
+                }
+              },
+              "7" : {
+                "properties" : {
+                  "image" : "<partImage>:pink.<frame>"
+                  }
+                },
+              "8" : {
+                "properties" : {
+                  "image" : "<partImage>:grey.<frame>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    
+    "particleEmitters" : { },
+
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/shotgun_reload_clip3.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "type" : "carpetcolor",
+    "name" : "Color Swap",
+    "scripts" : ["/items/carpetTool/carpetcolor.lua"],
+    "class" : "CarpetColor",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        "projectileType" : "ct_redcarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_orangecarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_yellowcarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_greencarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_bluecarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_purplecarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_pinkcarpet",
+        "energyUsage" : 0
+      },
+      {
+        "projectileType" : "ct_greycarpet",
+        "energyUsage" : 0
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+  
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+  
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  }
+}

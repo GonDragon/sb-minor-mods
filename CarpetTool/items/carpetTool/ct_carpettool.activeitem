@@ -1,0 +1,98 @@
+﻿{
+  "itemName" : "ct_carpettool",
+  "price" : 500,
+  "inventoryIcon" : "ct_carpettool.png:red.1",
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "Lets you put carpets on the floor",
+  "shortdescription" : "Carpet Tool",
+  "level" : 1,
+  "tooltipKind" : "tool",
+  "largeImage" : "ct_carpettool.png:red.1",
+  "category" : "^green;Tool^white;",
+  "itemTags" : ["tool"],
+
+  "twoHanded" : true,
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "ct_carpettool.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/blowgun1.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0]
+      }
+    }
+  },
+
+  "baseOffset" : [0.0, 0.0],
+  "muzzleOffset" : [1.4, 0.6],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.18,
+    "baseDps" : 0,
+    "energyUsage" : 0,
+    "inaccuracy" : 0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "ct_redcarpet",
+    "projectileParameters" : {
+      "speed" : 8.5
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.17,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbilityType" : "carpetcolor",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "upgradeParameters" : {
+    "inventoryIcon" : "ct_carpettool.png:red.1",
+    "animationParts" : {
+      "middle" : "ct_carpettool.png"
+    },
+    "shortdescription" : "Color Swap ^yellow;^reset;"
+  }
+}

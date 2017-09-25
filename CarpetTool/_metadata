@@ -1,0 +1,10 @@
+{
+  "author" : "GonDragon",
+  "dependencies" : [],
+  "description" : "A small tool that let you put a carpet on the floor. You can buy it in the Infinity Market at the Outpost, for 2500 pixels.\n\nIt has 8 colors: Red, Orange, Yellow, Green, Blue, Purple, Pinky and Grey. You can swap trough the colors with the secondary click.\n\nI want to give a special thank to NovastarX, as I used some assets and code from his mod [Ground Seeder](http://steamcommunity.com/sharedfiles/filedetails/?id=742376260) to kickstart the creation of this mod. Thanks!",
+  "friendlyName" : "Carpet Tool",
+  "link" : "steam://url/CommunityFilePage/1142579300",
+  "name" : "carpettool",
+  "steamContentId" : "1142579300",
+  "version" : "1.0"
+}

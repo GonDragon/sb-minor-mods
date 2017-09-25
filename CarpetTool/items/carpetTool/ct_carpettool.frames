@@ -1,0 +1,12 @@
+{
+  "frameGrid" : {
+    "size" : [16, 16],
+    "dimensions" : [8, 1],
+    "names" : [
+      ["red.1", "orange.1", "yellow.1", "green.1", "blue.1", "purple.1", "pink.1", "grey.1" ]
+    ]
+  },
+
+  "aliases" : {
+  }
+}

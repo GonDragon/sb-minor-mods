@@ -1,0 +1,24 @@
+{
+  "projectileName" : "ct_purplecarpet",
+  "image" : "ct_purplecarpet.png",
+  "animationCycle" : 0.7,
+  "frameNumber" : 7,
+  "timeToLive" : 0.7,
+  
+    "actionOnReap" : [
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+
+	  // Material name here:
+      "newMod" : "ct_purplecarpet",
+	  
+      "radius" : 1
+    }
+  ],
+  
+  "damagePoly" : [ ],
+  "damageKind" : "hidden",
+  "statusEffects" : [
+  ]
+}

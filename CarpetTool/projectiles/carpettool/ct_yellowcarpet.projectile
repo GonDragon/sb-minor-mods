@@ -1,0 +1,24 @@
+{
+  "projectileName" : "ct_yellowcarpet",
+  "image" : "ct_yellowcarpet.png",
+  "animationCycle" : 0.7,
+  "frameNumber" : 7,
+  "timeToLive" : 0.7,
+  
+    "actionOnReap" : [
+    {
+      "action" : "applySurfaceMod",
+      "previousMod" : "metamod:none",
+
+	  // Material name here:
+      "newMod" : "ct_yellowcarpet",
+	  
+      "radius" : 1
+    }
+  ],
+  
+  "damagePoly" : [ ],
+  "damageKind" : "hidden",
+  "statusEffects" : [
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "modId" : 20203,
+  "modName" : "ct_purplecarpet",
+  "description" : "Fancy, a soft carpet.",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ct_purplecarpet.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

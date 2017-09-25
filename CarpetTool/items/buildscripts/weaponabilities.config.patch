@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "add",
+    "path" : "/carpetcolor",
+    "value" : "/items/carpetTool/carpetcolor.weaponability"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "modId" : 20204,
+  "modName" : "ct_pinkcarpet",
+  "description" : "Fancy, a soft carpet.",
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ct_pinkcarpet.png",
+    "variants" : 5,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}
